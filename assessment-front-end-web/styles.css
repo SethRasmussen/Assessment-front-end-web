@@ -1,0 +1,60 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: 15px;
+    vertical-align: top;
+}
+
+
+img {
+	max-width: 250px;
+}
+
+
+.lists {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+}
+
+.fav-btns{
+	font-variant: small-caps;
+	text-shadow: 3px 5px 2px #474747, 2px 2px 2px rgba(206,89,55,0.21);
+}
